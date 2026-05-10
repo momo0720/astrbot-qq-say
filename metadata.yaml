@@ -1,0 +1,5 @@
+name: qq_say
+display_name: QQ说
+desc: Generate simple fake QQ forwarded chat records from mentions and text
+version: 1.0.0
+author: anonymous
