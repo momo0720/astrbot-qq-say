@@ -1,0 +1,7 @@
+{
+  "message_separator": "*",
+  "speaker_separator": "###",
+  "group_whitelist": "",
+  "allow_private_chat": false,
+  "protected_users": ""
+}

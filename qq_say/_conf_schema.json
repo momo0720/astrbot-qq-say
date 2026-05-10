@@ -1,0 +1,27 @@
+{
+  "message_separator": {
+    "description": "同一发言人的多条消息分隔符",
+    "type": "string",
+    "default": "*"
+  },
+  "speaker_separator": {
+    "description": "切换到下一位发言人的分隔行内容",
+    "type": "string",
+    "default": "---"
+  },
+  "group_whitelist": {
+    "description": "群聊白名单。留空表示所有群可用；填写后仅允许白名单群使用。支持英文逗号、中文逗号、空格或换行分隔多个群号。",
+    "type": "string",
+    "default": ""
+  },
+  "allow_private_chat": {
+    "description": "是否允许在私聊中使用 QQ说。默认关闭。AstrBot 管理员不受此限制。",
+    "type": "bool",
+    "default": false
+  },
+  "protected_users": {
+    "description": "禁止被伪造的 QQ 号列表。支持英文逗号、中文逗号、空格或换行分隔多个 QQ 号。AstrBot 管理员不受此限制。",
+    "type": "string",
+    "default": "3983931436,1332053049"
+  }
+}
