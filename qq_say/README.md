@@ -6,6 +6,12 @@ AstrBot plugin for generating fake QQ forwarded chat records.
 
 生成一条或多条仿 QQ 合并转发聊天记录。
 
+## 安装
+
+1. 将 `qq_say` 目录复制到 AstrBot 的插件目录中。
+2. 在 AstrBot 插件配置页按需修改分隔符、白名单和保护账号配置。
+3. 重启 AstrBot 或重载插件后即可使用。
+
 ## 命令
 
 - `/QQ说 @某人 文本`
